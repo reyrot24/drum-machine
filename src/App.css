@@ -1,0 +1,31 @@
+*{
+    background-color: beige;
+}
+
+.drum-pads {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.App{
+    display: flex;
+    justify-content: center;
+    margin-top: 33vh;
+}
+
+.drum-pad{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(202, 201, 201);
+}
+
+#display{
+    display: flex;
+    justify-content: right;
+    border: 1px solid rgb(203, 203, 203);
+    background-color: rgb(40, 194, 194);
+    color: red;
+}
